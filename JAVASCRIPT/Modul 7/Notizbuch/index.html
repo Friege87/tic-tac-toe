@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body onload="render()">
+    <div class="sidebar">
+        <h2>To Do List</h2>
+        <div class="icon1">
+            <span class="notiz"><div><span class="material-symbols-outlined">
+                home
+            </span></div>Notizen</span>
+        </div>
+        <div class="icon2">
+            <span class="notiz">
+                <div><span class="material-symbols-outlined">
+                        favorite
+                    </span></div>User
+            </span>
+        </div>
+
+    </div>
+    
+
+    <div class="container">
+        <div id="canvas">
+            <!-- Content will be loaded here -->
+            <input type="text" placeholder="Titel" class="input">
+            <input type="text" placeholder="Notiz hinzufügen" class="input">
+            <button onclick="addToDo()" class="button-start"><span class="material-symbols-outlined">
+                add 
+            </span></button>
+        </div>
+    </div>
+    
+</body>
+</html>
